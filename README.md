@@ -24,8 +24,7 @@ $$
 p(m|\theta) = \mathcal{N}(m; \theta, \sigma^2)
 $$
 
-where \( \theta \) is the true stimulus orientation and \( \sigma \) represents sensory noise.
-
+where $\theta$ is the true stimulus orientation and $\sigma$ represents sensory noise.
 ---
 
 ### Prior
