@@ -138,6 +138,7 @@ Strong prior influence leads to clear repulsive bias and low variability.
 ---
 
 ## 📝 Notes
+- This work was conducted as part of a research internship in computational modeling  
 - Inspired by Wei & Stocker (2015)  
 - Implemented in Python using `numpy` and `matplotlib`  
 - Focus on conceptual modeling and simulation rather than full experimental pipeline  
