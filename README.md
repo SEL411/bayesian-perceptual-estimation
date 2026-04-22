@@ -1,6 +1,7 @@
 # Bayesian Perceptual Estimation (Efficient Observer Model)
 
-This project implements an **efficient Bayesian observer model** to explain 
+This project was developed during a **research internship in computational neuroscience**, 
+where I implemented an efficient Bayesian observer model to explain 
 orientation-dependent perceptual bias and variability in human vision.
 
 ---
