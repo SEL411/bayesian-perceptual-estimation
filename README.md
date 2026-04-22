@@ -103,13 +103,11 @@ $$
 
 J(θ) = ∫ (∂/∂θ log p(m|θ))² p(m|θ) dm
 
----
 
 **After efficient encoding:**
 
 J_h(θ) = (F'(θ))² · J_g(F(θ))
 
----
 
 - Fisher information becomes **stimulus-dependent**
 - Determined by the derivative of the encoding function F(θ)
