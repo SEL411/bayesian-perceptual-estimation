@@ -174,7 +174,6 @@ Repulsive bias becomes more pronounced, and variability is further reduced.
 
 Strong prior influence leads to clear repulsive bias and low variability.
 
----
 
 *Figure: Bias and variability as a function of stimulus orientation for different values of κ.*
 
