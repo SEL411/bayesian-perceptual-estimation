@@ -99,12 +99,13 @@ $$
 
 ## 📊 Fisher Information
 
-\[
-J(\theta) = \int \left( \frac{\partial}{\partial \theta} \log p(m|\theta) \right)^2 p(m|\theta)\,dm
-\]
+**Definition:**
+
+J(θ) = ∫ (∂/∂θ log p(m|θ))² p(m|θ) dm
+
 - In this model, Fisher information is **non-uniform**
 - Higher near cardinal orientations
-- Drives asymmetric likelihood
+- This non-uniformity leads to **asymmetric likelihood**
 
 ---
 
