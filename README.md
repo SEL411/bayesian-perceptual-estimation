@@ -78,7 +78,8 @@ p(θ) = C (Z − |sin(2θ)|)
 - This prior assigns higher probability to **cardinal orientations (0°, 90°)**
 - Lower probability to **oblique orientations**
 - Consistent with statistics of natural scenes
-
+  
+This prior is later used to construct the cumulative mapping F(θ), which determines the distribution of Fisher information.
 
 ### Posterior
 
@@ -197,10 +198,10 @@ Strong prior influence leads to clear repulsive bias and low variability.
 
 Main components:
 
-- Prior construction (non-uniform)
-- Sensory encoding via cumulative mapping \(F(\theta)\)
-- Sampling measurements \(m\)
-- Bayesian decoding using circular statistics
+- Non-uniform prior construction based on natural orientation statistics
+- Sensory encoding via cumulative mapping F(θ), inducing non-uniform Fisher information
+- Sampling noisy measurements m from the likelihood
+- Bayesian decoding using circular statistics (posterior mean)
 
 Example:
 
