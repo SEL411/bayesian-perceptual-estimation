@@ -65,28 +65,35 @@ This connects efficient coding with Bayesian inference.
 
 ### Likelihood
 
-\[
+$$
 p(m|\theta) = \mathcal{N}(m; \theta, \sigma^2)
-\]
+$$
+
+---
+
 ### Prior
 
-\[
+$$
 p(\theta)
-\]
+$$
 
 (encodes higher probability near cardinal orientations)
 
+---
+
 ### Posterior
 
-\[
+$$
 p(\theta|m) \propto p(m|\theta) p(\theta)
-\]
+$$
+
+---
 
 ### Estimation
 
-\[
+$$
 \hat{\theta} = \mathbb{E}[\theta | m]
-\]
+$$
 
 ---
 
