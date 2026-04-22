@@ -127,8 +127,7 @@ J(θ) = ∫ (∂/∂θ log p(m|θ))² p(m|θ) dm
 Bias and variability computed as:
 
 - Bias: circular mean error
-- Variability: \(1 - R\) (resultant vector length) :contentReference[oaicite:3]{index=3}
-
+- Variability: \(1 - R\) (resultant vector length)
 ---
 
 ## 📈 Results
