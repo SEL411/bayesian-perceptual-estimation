@@ -72,11 +72,12 @@ $$
 
 ### Prior
 
-$$
-p(\theta)
-$$
+p(θ) = C (Z − |sin(2θ)|)
 
-(encodes higher probability near cardinal orientations)
+- The term **2θ** reflects the π-periodicity of orientation space
+- This prior assigns higher probability to **cardinal orientations (0°, 90°)**
+- Lower probability to **oblique orientations**
+- Consistent with statistics of natural scenes
 
 
 ### Posterior
