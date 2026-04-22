@@ -15,7 +15,7 @@ Human observers show systematic distortions when estimating orientation:
 These phenomena are well-documented in behavioral experiments  
 (e.g., Appelle, 1972; Wei & Stocker, 2015).
 
-📄 Assignment description: :contentReference[oaicite:0]{index=0}
+📄 Assignment based on: Bayesian observer modeling task (orientation estimation)
 
 ---
 
@@ -65,8 +65,9 @@ This connects efficient coding with Bayesian inference.
 
 ### Likelihood
 
-:contentReference[oaicite:1]{index=1}
-
+\[
+p(m|\theta) = \mathcal{N}(m; \theta, \sigma^2)
+\]
 ### Prior
 
 \[
@@ -91,8 +92,9 @@ p(\theta|m) \propto p(m|\theta) p(\theta)
 
 ## 📊 Fisher Information
 
-:contentReference[oaicite:2]{index=2}
-
+\[
+J(\theta) = \int \left( \frac{\partial}{\partial \theta} \log p(m|\theta) \right)^2 p(m|\theta)\,dm
+\]
 - In this model, Fisher information is **non-uniform**
 - Higher near cardinal orientations
 - Drives asymmetric likelihood
@@ -164,13 +166,6 @@ Strong prior influence leads to clear repulsive bias and low variability.
 *Figure: Bias and variability as a function of stimulus orientation for different values of κ.*
 
 ---
-## ⚠️ Limitation
-
-- This model reproduces qualitative patterns only
-- No parameter fitting to real datasets
-- Further work: model fitting and neural validation
-
----
 
 ### Key Findings
 
@@ -178,6 +173,12 @@ Strong prior influence leads to clear repulsive bias and low variability.
 - Oblique effect reproduced (higher variance at oblique angles)
 - Model qualitatively matches behavioral data
 
+---
+## ⚠️ Limitation
+
+- This model reproduces qualitative patterns only
+- No parameter fitting to real datasets
+- Further work: model fitting and neural validation
 ---
 
 ## 💻 Implementation
